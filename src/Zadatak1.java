@@ -1,3 +1,4 @@
+import java.io.File;
 
 public class Zadatak1 {
 
@@ -5,7 +6,10 @@ public class Zadatak1 {
 		// TODO Auto-generated method stub
 		
 		
-		System.out.println("zdravo");
+		File file =  new File ("zadatak1.txt");
+		
+		System.out.println("broj karektera fajla je: " + file.length());
+		System.out.println();
 
 	}
 
